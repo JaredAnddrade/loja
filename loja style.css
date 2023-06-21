@@ -1,0 +1,80 @@
+.container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-image: url(https://thumbs.dreamstime.com/b/%E6%97%A0%E7%BC%9D%E6%8A%BD%E8%B1%A1%E8%83%8C%E6%99%AF%E7%9A%84%E5%A4%9A%E7%BB%B4%E6%95%B0%E6%8D%AE%E9%9B%86-22086136.jpg);
+    background-size: cover;
+  }
+  
+  .item {
+    flex: 1; 
+    text-align: center; 
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    
+  }
+
+
+.logo { 
+    max-width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 300px;
+    height: 150px;
+}
+
+
+
+.consoles {
+    width: 45%;
+}
+
+img {
+    transition: all 0.5s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.2);
+  }
+
+
+.item2 {
+    flex: 1; 
+    text-align: center; 
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;   
+  }
+
+.valor {
+    color:rgb(255, 166, 0);
+}
+
+.footer {
+    width: 10%;
+}
+
+.linha{
+    border: none;
+    height: 8px;
+    background-color: black;
+    margin: 5px;
+  }
+
+  .container2 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(59, 58, 58);
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0px;
+    
+  }
+  .direitos {
+    color: white;
+    background-color: blue;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+  }
